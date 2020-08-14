@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F67DF87924E60CC500E8F4DC /* Basic_operator .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Basic_operator .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6CFF25B24D86E580083D866 /* Basic .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Basic .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6DFE21324CFA9ED0012EFB6 /* Learn-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DFE21624CFA9ED0012EFB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 			children = (
 				F6DFE22424CFA9F30012EFB6 /* Info.plist */,
 				F6CFF25C24D86ED00083D866 /* Source */,
+				F67DF87924E60CC500E8F4DC /* Basic_operator .playground */,
 				F6CFF25B24D86E580083D866 /* Basic .playground */,
 			);
 			path = "Learn-Swift";
