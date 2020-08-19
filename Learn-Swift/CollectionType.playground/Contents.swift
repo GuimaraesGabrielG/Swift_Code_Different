@@ -90,3 +90,8 @@ print(numInt)
 
 let numString = [String](namesOfIntegers.values).sorted()
 print(numString)
+
+let finalSquare = 25
+var board = [Int](repeating: 0, count: finalSquare + 1)
+print(board)
+
