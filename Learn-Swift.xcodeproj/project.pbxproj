@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F65DFDD124EDFA22000CE8BC /* 7. Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7. Closures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F67DF87A24E6178B00E8F4DC /* 3. String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3. String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6990E4424EBF80D00F3B1D4 /* 2. Basic_Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Basic_Operator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6990E4524EBF84000F3B1D4 /* 1. Basic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1. Basic.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -83,6 +84,7 @@
 				F67DF87A24E6178B00E8F4DC /* 3. String.playground */,
 				F6990E4524EBF84000F3B1D4 /* 1. Basic.playground */,
 				F6990E4D24ED854D00F3B1D4 /* 6. Function.playground */,
+				F65DFDD124EDFA22000CE8BC /* 7. Closures.playground */,
 			);
 			path = "Learn-Swift";
 			sourceTree = "<group>";
