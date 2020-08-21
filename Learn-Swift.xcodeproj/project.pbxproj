@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F61B9BE524F00B39007F649C /* 8. Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "8. Enum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F65DFDD124EDFA22000CE8BC /* 7. Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7. Closures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F67DF87A24E6178B00E8F4DC /* 3. String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3. String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6990E4424EBF80D00F3B1D4 /* 2. Basic_Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Basic_Operator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -78,6 +79,7 @@
 			children = (
 				F6DFE22424CFA9F30012EFB6 /* Info.plist */,
 				F6CFF25C24D86ED00083D866 /* Source */,
+				F61B9BE524F00B39007F649C /* 8. Enum.playground */,
 				F6990E4924ECA64000F3B1D4 /* 5. Switch.playground */,
 				F6990E4824EC357700F3B1D4 /* 4. CollectionType.playground */,
 				F6990E4424EBF80D00F3B1D4 /* 2. Basic_Operator.playground */,
