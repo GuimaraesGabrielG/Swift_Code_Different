@@ -18,6 +18,7 @@
 /* Begin PBXFileReference section */
 		F61B9BE524F00B39007F649C /* 8. Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "8. Enum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F61B9BEB24F41D94007F649C /* 9. Structures and Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9. Structures and Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F61B9BEC24F539E0007F649C /* 10. Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10. Properties.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F65DFDD124EDFA22000CE8BC /* 7. Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7. Closures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F67DF87A24E6178B00E8F4DC /* 3. String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3. String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6990E4424EBF80D00F3B1D4 /* 2. Basic_Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Basic_Operator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -89,6 +90,7 @@
 				F6990E4D24ED854D00F3B1D4 /* 6. Function.playground */,
 				F65DFDD124EDFA22000CE8BC /* 7. Closures.playground */,
 				F61B9BEB24F41D94007F649C /* 9. Structures and Classes.playground */,
+				F61B9BEC24F539E0007F649C /* 10. Properties.playground */,
 			);
 			path = "Learn-Swift";
 			sourceTree = "<group>";
