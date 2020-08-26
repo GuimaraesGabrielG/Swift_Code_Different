@@ -2,7 +2,7 @@
 
 let anotherCharacter: Character = "a"
 switch anotherCharacter {
-//case "a": // 无效，这个分支下面没有语句
+
 case "A", "a":
     print("The letter A")
 default:
