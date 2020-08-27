@@ -42,4 +42,3 @@ ovenLight.next()
 // ovenLight is now equal to .high
 ovenLight.next()
 // ovenLight is now equal to .off
-
