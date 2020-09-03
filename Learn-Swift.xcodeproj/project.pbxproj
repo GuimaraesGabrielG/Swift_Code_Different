@@ -20,6 +20,7 @@
 		F61B9BEB24F41D94007F649C /* 9. Structures and Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9. Structures and Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F61B9BEC24F539E0007F649C /* 10. Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10. Properties.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F620B76B25007D1700188A93 /* 17. Nested_Types .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "17. Nested_Types .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F620B76C2501234F00188A93 /* 18. Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "18. Extensions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F65DFDD124EDFA22000CE8BC /* 7. Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7. Closures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F66B7ECF24FDC072007A4A94 /* 14. Optional.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "14. Optional.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F66B7ED024FE9048007A4A94 /* 15. Error Handling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15. Error Handling.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -105,6 +106,7 @@
 				F66B7ED024FE9048007A4A94 /* 15. Error Handling.playground */,
 				F66B7ED124FEB4C2007A4A94 /* 16. Type_Casting.playground */,
 				F620B76B25007D1700188A93 /* 17. Nested_Types .playground */,
+				F620B76C2501234F00188A93 /* 18. Extensions.playground */,
 			);
 			path = "Learn-Swift";
 			sourceTree = "<group>";
