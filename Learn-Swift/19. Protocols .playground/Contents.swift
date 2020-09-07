@@ -191,3 +191,127 @@ extension Dice: TextRepresentable {
         return "A \(sides)-sided dice"
     }
 }
+
+//MARK: Protocol Using a Synthesized Implementation
+//Equatable, Hashablee Comparable
+//To receive a synthesized implementation of ==, declare conformance to Equatable in the file that contains the original declaration
+
+//Equatable
+struct Vector3D: Equatable {
+    var x = 0.0, y = 0.0, z = 0.0
+}
+
+let twoThreeFour = Vector3D(x: 2.0, y: 3.0, z: 4.0)
+let anotherTwoThreeFour = Vector3D(x: 2.0, y: 3.0, z: 4.0)
+if twoThreeFour == anotherTwoThreeFour {
+    print("These two vectors are also equivalent.")
+}
+
+
+//Comparable
+//To receive a synthesized implementation of hash(into:), declare conformance to Hashable in the file that contains the original declaration
+
+
+
+struct Person3: Comparable {
+    var name: String
+
+    static func <(lhs: Person3, rhs: Person3) -> Bool {
+        return lhs.name < rhs.name
+    }
+}
+let taylor = Person3(name: "Taylor Swift")
+let justin = Person3(name: "Justin Bieber")
+
+print(taylor < justin)
+
+
+//MARK: Collections of Protocol Types
+protocol InheritingProtocol: SomeProtocol {
+    // protocol definition goes here
+}
+protocol PrettyTextRepresentable: TextRepresentable {
+    var prettyTextualDescription: String { get }
+}
+
+//MARK: Class-Only Protocols -> You can limit protocol adoption to class types (and not structures or enumerations) by adding the AnyObject protocol to a protocol’s inheritance list
+
+protocol SomeClassOnlyProtocol: AnyObject {
+    // class-only protocol definition goes here
+}
+
+
+//MARK: Protocol Composition -> You can combine multiple protocols into a single requirement with a protocol composition.
+
+protocol Named {
+    var name: String { get }
+}
+protocol Aged {
+    var age: Int { get }
+}
+struct Person4: Named, Aged {
+    var name: String
+    var age: Int
+}
+func wishHappyBirthday(to celebrator: Named & Aged) {
+    print("Happy birthday, \(celebrator.name), you're \(celebrator.age)!")
+}
+let birthdayPerson = Person4(name: "Malcolm", age: 21)
+wishHappyBirthday(to: birthdayPerson)
+
+//PROTOCOL AND CLASS
+
+class Location {
+    var latitude: Double
+    var longitude: Double
+    init(latitude: Double, longitude: Double) {
+        self.latitude = latitude
+        self.longitude = longitude
+    }
+}
+class City: Location, Named {
+    var name: String
+    init(name: String, latitude: Double, longitude: Double) {
+        self.name = name
+        super.init(latitude: latitude, longitude: longitude)
+    }
+}
+func beginConcert(in location: Location & Named) {
+    print("Hello, \(location.name)!")
+}
+
+let seattle = City(name: "Seattle", latitude: 47.6, longitude: -122.3)
+beginConcert(in: seattle)
+
+//MARK: Protocol Extensions
+//Protocol extensions can add implementations to conforming types but can’t make a protocol extend or inherit from another protocol
+
+extension RandomNumberGenerator {
+    func randomBool() -> Bool {
+        return random() > 0.5
+    }
+}
+let generatores = LinearCongruentialGenerator()
+print("Here's a random number: \(generatores.random())")
+// Prints "Here's a random number: 0.3746499199817101"
+print("And here's a random Boolean: \(generator.randomBool())")
+// Prints "And here's a random Boolean: true"
+
+//Adding Constraints to Protocol Extensions
+extension Collection where Element: Equatable {
+    func allEqual() -> Bool {
+        for element in self {
+            if element != self.first {
+                return false
+            }
+        }
+        return true
+    }
+}
+let equalNumbers = [100, 100, 100, 100, 100]
+let differentNumbers = [100, 100, 200, 100, 200]
+
+print(equalNumbers.allEqual())
+// Prints "true"
+print(differentNumbers.allEqual())
+// Prints "false"
