@@ -29,6 +29,7 @@
 		F66B7ED124FEB4C2007A4A94 /* 16. Type_Casting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "16. Type_Casting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F676205624F9425C0020BDC5 /* 13. Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "13. Initialization.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F67DF87A24E6178B00E8F4DC /* 3. String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3. String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F68DACE625117D470014558B /* 21. Automatic_Reference_Counting .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "21. Automatic_Reference_Counting .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F696173624F69FC800FEF4E4 /* 11. Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11. Methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F69822C324F7F0F300648428 /* 12. Inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12. Inheritance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6990E4424EBF80D00F3B1D4 /* 2. Basic_Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Basic_Operator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -111,6 +112,7 @@
 				F620B76C2501234F00188A93 /* 18. Extensions.playground */,
 				F60917152502A43C00733266 /* 19. Protocols.playground */,
 				F60917162507C7F100733266 /* 20. Generics.playground */,
+				F68DACE625117D470014558B /* 21. Automatic_Reference_Counting .playground */,
 			);
 			path = "Learn-Swift";
 			sourceTree = "<group>";
