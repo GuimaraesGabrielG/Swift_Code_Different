@@ -37,6 +37,7 @@
 		F6990E4824EC357700F3B1D4 /* 4. CollectionType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4. CollectionType.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6990E4924ECA64000F3B1D4 /* 5. Switch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "5. Switch.playground"; path = "Learn-Swift/5. Switch.playground"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6990E4D24ED854D00F3B1D4 /* 6. Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6. Function.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F69C857B2518E11C00374BAB /* 22. Access_Control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "22. Access_Control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F6DFE21324CFA9ED0012EFB6 /* Learn-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DFE21624CFA9ED0012EFB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6DFE21824CFA9ED0012EFB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +114,7 @@
 				F60917152502A43C00733266 /* 19. Protocols.playground */,
 				F60917162507C7F100733266 /* 20. Generics.playground */,
 				F68DACE625117D470014558B /* 21. Automatic_Reference_Counting .playground */,
+				F69C857B2518E11C00374BAB /* 22. Access_Control.playground */,
 			);
 			path = "Learn-Swift";
 			sourceTree = "<group>";
