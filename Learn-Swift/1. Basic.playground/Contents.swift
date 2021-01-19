@@ -56,10 +56,10 @@ print(dayNow.month)
 let possibleNumber = "123"
 let convertedNumber = Int(possibleNumber)
 
-print(convertedNumber)
+//print(convertedNumber)
 
 var surveyAnswer: String? //Default nil
-print(surveyAnswer)
+//print(surveyAnswer)
 
 
 //When you are sure it has value put "!" to unwrap
